@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS producttb(
+
+name VARCHAR(255) NOT NULL,
+category VARCHAR(255) NOT NULL,
+photoUrl VARCHAR(255) NOT NULL,
+description TEXT,
+price DOUBLE NOT NULL
+
+);
